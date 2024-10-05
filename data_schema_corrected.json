@@ -1,0 +1,81 @@
+{
+    "Business Group": {
+      "name": "Business Group (Etch)",
+      "children": [
+        {
+            
+            "name": "Coronus Product Family"
+        },
+        {
+            
+            "name": "Flex Product Family",
+            "connected_to": "Versys Metal Product Family"
+        },
+        {
+            
+            "name": "Versys Metal Product Family"
+        },
+        {
+          "name": "Kiyo Product Family",
+          "children": [
+            {
+              "name": "Versys Kiyo",
+              "children": [
+                {
+                
+                    "name": "Shipped With - N",
+                    "connected_to": "Shipped With - 1"
+                },
+                {
+                    "name": "Gas Box"
+                },
+                {
+                    "name": "BTM"
+                },
+
+                {
+                  "name": "Process Module - 1",
+                  "connected_to": "Process Module - N",
+                  "children": [
+                    {
+                      "name": "Make Part - 1"
+                    },
+                    {
+                      "name": "Purchase Part - 1"
+                    },
+                    {
+                        "name": "Make Part - N"
+                    },
+                    {
+                        "name": "Purchase Part - N"
+                    }
+                  ]
+                },
+                {
+                  "name": "Process Module - N"
+                },
+                {
+                  "name": "ATM"
+                }
+              ]
+            },
+            {
+              "name": "Versys Kiyo4S"
+            },
+            {
+              "name": "Kiyo C Series"
+            },
+            {
+              "name": "Kiyo E Series"
+            },
+            {
+              "name": "Kiyo F Series"
+            }
+          ]
+        }
+        
+      ]
+    }
+   
+  }
+  
